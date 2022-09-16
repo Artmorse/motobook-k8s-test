@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: motobook-app-svc
+spec:
+  ports:
+    - name: "http"
+      port: 80
+  selector:
+    run: motobook-app
