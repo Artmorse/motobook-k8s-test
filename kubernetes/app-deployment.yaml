@@ -4,7 +4,6 @@ metadata:
   name: motobook-app-depl
   labels:
     run: motobook-app
-  namespace: motobook
 spec:
   replicas: 2
   selector:
